@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(4, 104, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    height: 340px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card-header {
+    font-size: 70px;
+    align-self: flex-start;
+
+}
+
+.card-footer {
+    font-size: 70px;
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+
+.card-body {
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0, 2%, 63%);
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
+
+.btn{
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+.hearth{
+    color: red;
+}
+.spade{
+    color: #000;
+} 
+.club{
+    color:#000;
+}
+.diamond{
+    color: red;
+}
+
